@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+h4{
+    color: rgb(255, 62, 101);
+    font-size: 1.7rem;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    border: 2px solid white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: auto;
+    position: relative;
+    top: 7rem;
+    overflow: hidden;
+    height: 59vh;
+}
+.phoneNo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 15vh;
+}
+.PhoneInputInput{
+    height: 5vh;
+    border-radius: 1rem;
+    border: gainsboro;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.Otpdiv input{
+    height: 5vh;
+    border-radius: 1rem;
+    border: gainsboro;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+.Sendotp,.submitbtn{
+    margin:auto;
+    position: relative;
+    top:0.5rem;
+    border-radius: 1rem;
+    width: 34%;
+    padding: 0.3rem;
+    border:2px solid crimson;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.Otpdiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+   
+}
+.thanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:10rem;
+    font-size: 2.1rem;
+}
+@media only screen and (width <=480px){
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        border: 2px solid white;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        margin: auto;
+        position: relative;
+        top: 7rem;
+        height: 59vh;
+    }
+    h4 {
+        color: rgb(255, 62, 101);
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .Sendotp, .submitbtn {
+        margin: auto;
+        position: relative;
+        top: 0.5rem;
+        border-radius: 1rem;
+        width: 55%;
+        padding: 0.3rem;
+        border: 2px solid crimson;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+}
